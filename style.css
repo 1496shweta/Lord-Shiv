@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./Screenshot\ 2024-08-13\ 162234.png");
+    background-size: cover;
+    background-position: center;
+}
+p{
+    position: absolute;
+    top:10%;
+    left:9%;
+    transform:translateY(-1.25%);
+    width:100%;
+    color:chocolate;
+    font-size:5rem;
+    text-align: center;
+    text-shadow: -0.01em -0.01em 0.01em yellow;
+    animation:textAnim 0.5s ease-in-out 0.5s alternate infinite;
+
+}
+@keyframes textAnim {
+    to {
+        
+        text-shadow: 
+            0 0.01em chocolate, 
+            0 0.02em chocolate, 
+            0 0.03em chocolate, 
+            -0.01em 0.01em yellow, 
+            -0.03em 0.03em yellow, 
+            -0.04em 0.04em yellow,
+            -0.01em -0.01em 0.03em yellow, 
+            -0.02em -0.02em 0.03em yellow, 
+            -0.03em -0.03em 0.03em yellow;
+    }
+}
+.shiv-ling{
+    position:relative;
+    width:450px;
+    height: 50px;
+    
+}
+.top{
+    width: 100px;
+    height:170px;
+    background-color: black;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: absolute;
+    left:70px;
+}
+.namas{
+    position: absolute;
+    top:70px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    gap:6px;
+}
+.namas .line{
+    width:60px;
+    height:8px;
+    border-radius: 100px;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.middle{
+    width:100%;
+    height:35px;
+    background-color: black;
+    position: relative;
+    top:160px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 12px;
+}
+.bottom{
+    width:280px;
+    height:125px;
+    position: relative;
+    top:160px;
+    left:20px;
+}
+.line1{
+    width: 100%;
+    height:10px;
+    background-color: #000;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.line2,.line4{
+    width:60%;
+    height:40px;
+    background-color: #000;
+    position: relative;
+    left: 12%;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+}
+.line3{
+    width:30%;
+    height:10px;
+    background-color: #000;
+    border-radius: 10px;
+    position: relative;
+    left:25%;
+}
+
+.line5{
+    width:100%;
+    height:35px;
+    background-color: #000;
+    border-radius: 10px;
+}
+.line6{
+    width:100%;
+    height:50px;
+    background-color: rgb(210, 30, 30);
+    border-radius: 10px;
+}
